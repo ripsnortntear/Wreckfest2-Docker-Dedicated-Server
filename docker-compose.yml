@@ -1,8 +1,8 @@
 ---
 services:
   wreckfest-server:
-    build: .  # Builds from the updated Dockerfile
-    image: nvitaterna/wreckfest2-docker-server:console  # Fallback if build fails
+    image: nvitaterna/wreckfest2-docker-server:console  # Use the committed image with updates (e.g., apt upgrades and procps installed)
+    # build: .  # Commented out since we're using the committed image instead of building
     ports:
       - "30100:30100/udp"
     volumes:
@@ -22,6 +22,8 @@ services:
       - DISPLAY=:99
     privileged: true
     restart: unless-stopped
-    # Start Xvfb as root, wait briefly, then switch to steam user for the entrypoint script
-    # Added echo for debugging to confirm Xvfb starts
+    # Enable interactive mode for console access
+    stdin_open: true
+    tty: true
+    # Start Xvfb, then run entry.sh without stdin redirection (allows console input)
     entrypoint: ["/bin/bash", "-c", "echo 'Starting Xvfb...' && Xvfb :99 -screen 0 1024x768x24 & sleep 2 && echo 'Xvfb started, running entry.sh' && gosu steam ./entry.sh"]
