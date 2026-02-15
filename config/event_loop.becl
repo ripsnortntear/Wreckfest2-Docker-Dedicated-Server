@@ -1,0 +1,533 @@
+{
+  "bbmeta": "becl v0 n1",
+  "events": [
+    {
+      "level": [
+        {
+          "level id": "track06_3",
+          "weather path": "data/property/weather/track06_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 10,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track02_2_rev",
+          "weather path": "data/property/weather/sandpit_sunnyday_1_short.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track04_1",
+          "weather path": "data/property/weather/track04_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 6,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track02_1_rev",
+          "weather path": "data/property/weather/sandpit_sunnyday_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 3,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track10_2",
+          "weather path": "data/property/weather/track10_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track01_1_rev",
+          "weather path": "data/property/weather/track01_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track06_1",
+          "weather path": "data/property/weather/track06_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 10,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track09_3",
+          "weather path": "data/property/weather/track09_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 1,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_5",
+          "weather path": "data/property/weather/track07_2_bluesky.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track01_1",
+          "weather path": "data/property/weather/track01_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track02_2",
+          "weather path": "data/property/weather/sandpit_cloudy_2_b.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track05_1",
+          "weather path": "data/property/weather/track05_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_3",
+          "weather path": "data/property/weather/track07_3_bluesky_2_afternoon.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track05_1_rev",
+          "weather path": "data/property/weather/track05_4.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_2",
+          "weather path": "data/property/weather/track07_2_bluesky.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 1,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track06_4",
+          "weather path": "data/property/weather/track06_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 8,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_4",
+          "weather path": "data/property/weather/track07_2_bluesky.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 6,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track04_1_rev",
+          "weather path": "data/property/weather/track04_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 6,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_1_rev",
+          "weather path": "data/property/weather/track07_1_bluesky_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 5,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track09_2",
+          "weather path": "data/property/weather/track09_1_sunset_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 8,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track07_1",
+          "weather path": "data/property/weather/track07_1_bluesky_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 4,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track09_1",
+          "weather path": "data/property/weather/track09_1_sunset_2.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 10,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track06_2",
+          "weather path": "data/property/weather/track06_1.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 1,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    },
+    {
+      "level": [
+        {
+          "level id": "track02_1",
+          "weather path": "data/property/weather/sandpit_cloudy_2_b.weat",
+          "ai set path": "career/ai-class-all.aist",
+          "game mode id": ""
+        }
+      ],
+      "rules": [
+        {
+          "laps": 3,
+          "time limit": 3,
+          "number of teams": 1,
+          "max number of participants": 24,
+          "flags": "",
+          "car reset delay (seconds)": 0,
+          "vehicle damage id": "normal"
+        }
+      ],
+      "bot count": 24
+    }
+  ]
+}
