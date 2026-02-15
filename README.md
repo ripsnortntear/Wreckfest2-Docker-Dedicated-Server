@@ -32,5 +32,7 @@ Interactive Console Mode:
     Use docker compose attach wreckfest-server after the server has started.
     Use help to see commands
 
+    Make sure to use CTRL-C to exit the console and not exit or quit unless you want to stop the server
+
 Inspired by https://hub.docker.com/r/nvitaterna/wreckfest2-docker-server -- check the base image for updates. 
 Enjoy racing! 🏎️
