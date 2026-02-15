@@ -18,7 +18,7 @@ Quick Start
     Create host directories: `mkdir -p config logs wf2-server`. (copy your wreckfest2 game files to wf2-server folder)
     Add your server_config.scnf and event_loop.becl and default_loop.becl files to ./config.
     Run `docker compose up -d`. (docker-compose.yml and Dockerfile MUST be in same dir)
-    Connect clients to your host's IP on UDP port 30100.
+    Connect clients to your host's IP on UDP port 30100. (also shows up in server list)
     (If using UFW (and you should) run `ufw allow 30100/udp')
 
 Requirements
