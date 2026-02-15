@@ -30,5 +30,5 @@ Requirements
 
 For detailed setup, troubleshooting, and config examples, see the Wiki or open an Issue.
 
-Inspired by https://hub.docker.com/r/nvitaterna/wreckfest2-docker-server -- check the base image for updates. Enjoy racing! 🏎️
-
+Inspired by https://hub.docker.com/r/nvitaterna/wreckfest2-docker-server -- check the base image for updates. 
+Enjoy racing! 🏎️
