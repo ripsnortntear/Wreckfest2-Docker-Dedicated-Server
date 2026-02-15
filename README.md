@@ -28,21 +28,10 @@ Requirements
     Sufficient resources (e.g., 4GB RAM, multi-core CPU).
     Internet access for Steam updates.
 
-Warning:
+Interactive Console Mode:
 
-    Not an issue. The error is not an error but a warning that the console is non-interactive.
-    ```
-    wreckfest-server-1  | Exception in thread Thread-1 (__loop):
-    wreckfest-server-1  | Traceback (most recent call last):
-    wreckfest-server-1  |   File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
-    wreckfest-server-1  |     self.run()
-    wreckfest-server-1  |   File "/usr/lib/python3.11/threading.py", line 975, in run
-    wreckfest-server-1  |     self._target(*self._args, **self._kwargs)
-    wreckfest-server-1  |   File "/home/steam/wrapper/lib/ConsoleWriter.py", line 36, in __loop
-    wreckfest-server-1  |     userInput = input()
-    wreckfest-server-1  |                 ^^^^^^^
-    wreckfest-server-1  | EOFError: EOF when reading a line
-    ```
+    Use docker compose attach wreckfest-server after the server has started.
+    Use help to see commands
 
 Inspired by https://hub.docker.com/r/nvitaterna/wreckfest2-docker-server -- check the base image for updates. 
 Enjoy racing! 🏎️
