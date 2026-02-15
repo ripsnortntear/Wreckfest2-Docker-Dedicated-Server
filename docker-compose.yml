@@ -1,0 +1,27 @@
+---
+services:
+  wreckfest-server:
+    build: .  # Builds from the updated Dockerfile
+    image: nvitaterna/wreckfest2-docker-server:console  # Fallback if build fails
+    ports:
+      - "30100:30100/udp"
+    volumes:
+      - ./config:/home/steam/wf2-config
+      - ./logs:/home/steam/logs
+      - ./wf2-server:/home/steam/wf2-server
+    environment:
+      - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      - WINEDLLOVERRIDES=mscoree=
+      - STEAMAPPDIR=/home/steam/wf2-server
+      - SERVERCONFIGDIR=/home/steam/wf2-config
+      - STEAMAPPID=3519390
+      - XLOGDIR=/home/steam/logs/x
+      - WINELOGDIR=/home/steam/logs/wine
+      - WFLOGFILEDIR=/home/steam/logs/wf
+      - WRAPPERDIR=/home/steam/wrapper
+      - DISPLAY=:99
+    privileged: true
+    restart: unless-stopped
+    # Start Xvfb as root, wait briefly, then switch to steam user for the entrypoint script
+    # Added echo for debugging to confirm Xvfb starts
+    entrypoint: ["/bin/bash", "-c", "echo 'Starting Xvfb...' && Xvfb :99 -screen 0 1024x768x24 & sleep 2 && echo 'Xvfb started, running entry.sh' && gosu steam ./entry.sh"]
